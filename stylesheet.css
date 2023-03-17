@@ -1,0 +1,224 @@
+/* Additionnal stylesheet, to override various bootstrap */
+/* style properties, without modifications on bootstrap.css */
+
+/* Bootstrap v3.3.7 */
+/* see bootstrap.css for more details (license, copyright) */
+
+/* reminder about CSS symbols : */
+/*    - > : direct child */
+/*    - ' ': general descendant selector; */
+/*    - . : class ;  (.A.B = element of class A and B) */
+
+/*
+.main{
+	background-color: rgb(236, 240, 241);
+}
+*/
+
+.container {
+	padding : 5% 5% 8% 5%;
+}
+
+.perso{
+	padding : 8% 5% 5% 5%;
+}
+
+.header {
+  margin-bottom: 5mm;
+}
+
+.navbar{
+	margin: 1% 0% 2% 0%;
+}
+
+.navbar-brand#menu-name {
+  color: rgb(44, 62, 80);
+  font-size: 20pt;
+}
+
+.nav-link#menu-item:hover {
+  color: rgb(41, 128, 185);
+}
+
+.page-subtitle {
+  color : #60a3bc;
+}
+
+.list-title {
+  color: #60a3bc;
+}
+
+p.par{
+  margin-bottom: 0.5cm;
+  color: rgb(44, 62, 80);
+  text-align: justify;
+}
+
+em#keywords{
+  color: #60a3bc;
+  font-weight: bold;
+  font-style: normal;
+}
+
+em#links{
+	color: #60a3bc;
+	font-weight: bold;
+	font-style: normal;
+  }
+
+em#address{
+  color: rgb(127, 140, 141);
+  font-style: normal;
+  font-family: monospace;
+  font-size: 10pt;
+}
+
+em#ct-info{
+  font-style: normal;
+  font-weight: bold;
+  color: rgb(127, 140, 141);
+}
+
+em.main-item{
+  font-weight: normal;
+  font-style: oblique;
+  color: #535c68;
+}
+
+em.quote{
+	font-style: oblique;
+	color: rgb(60, 99, 130);
+}
+
+em.title{
+	font-weight: 400;
+	color: rgb(149, 165, 166);
+}
+
+div.quote{
+	text-align: right;
+	margin-bottom: 0.7cm;
+}
+
+.space-item{
+  margin-bottom: 5mm;
+}
+
+.sizeable{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a.link{
+	text-decoration: none;
+	color: #7d5fff;
+}
+
+a.link:hover{
+	text-decoration: underline;
+	color: #7d5fff;
+}
+
+#col-title{
+	background-color: #f8f9fa;
+	text-align: right;
+	padding: 0.5% 1% 0.5% 0.5%;
+	margin: 1% 1% 2% 1%;
+	border-radius: 5px;
+}
+
+h2.page-subtitle{
+	font-size: 20pt;
+	color: rgb(44, 62, 80);
+}
+
+/* managing upper-items color */
+/* .nav-pills > li > a {
+	color : rgb(231, 76, 60);
+	background-color : transparent;
+}
+
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus{
+	color : rgb(231, 76, 60);
+	background-color : rgb(236, 240, 241);
+}
+
+
+
+.nav-pills > li.active > a {
+	color : rgb(255, 255, 255);
+	background-color : rgb(127, 140, 141);
+}
+
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus{
+	color : rgb(255, 255, 255);
+	background-color : rgb(159, 165, 169);
+} */
+
+.marketing {
+	padding-left : 15px;
+	padding-right : 15px;
+
+}
+
+
+@media (max-width: 1000px){
+	.sizeable {
+		display : none;
+	}
+
+  .centered {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+	div.Home-aside > div {
+		margin-top : 20%;
+		margin-bottom : 20%;
+
+	}
+
+}
+
+.home-heading {
+	color : rgb(52, 152, 219);
+
+}
+
+.about-heading {
+	color : rgb(127, 140, 141);
+}
+
+.about-center,
+.contact-center {
+	border-left-width : 1px;
+	border-left-style : solid;
+	border-left-color : rgb(44, 62, 80);
+
+}
+
+p.textual {
+	margin-bottom : 2%;
+}
+
+.contact-nfo {
+	color: rgb(52, 73, 94);
+}
+
+ul.projects>li{
+	margin-bottom : 2%;
+}
+
+i.keywords {
+	color : rgb(192, 57, 43);
+}
+
+
+
+
+/* rgb(39, 174, 96) vert */
+/* rgb(41, 128, 185) bleu */
