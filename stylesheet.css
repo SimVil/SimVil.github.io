@@ -158,7 +158,7 @@ em.journal-title{
 }
 
 /* ================================================================== 
- * Research
+ * Research / misc
  * =============================================================== */
 
 em.item-name{
@@ -223,7 +223,7 @@ em.main-item{
 
 em.quote{
 	font-style: oblique;
-	color: rgb(60, 99, 130);
+	color: rgb(34, 47, 62);
 }
 
 em.title{
@@ -233,6 +233,7 @@ em.title{
 
 div.quote{
 	text-align: right;
+	margin-top: 5%;
 	margin-bottom: 0.7cm;
 }
 
