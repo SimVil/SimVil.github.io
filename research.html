@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-EN">
+
+<head>
+  <title> Simon Vilmin - AMU </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name='description' content='Simon Vilmin - AMU'>
+	<meta name='keywords' content='closure systems, algorithmic enumeration, lattices, python, database theory, LIS, AMU, Polytech'>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+<div class="container">
+  <div class="row">
+    <div class="d-flex col-md-auto mb-4 align-content-center">
+      <div class="card" style="width: 19rem; height:26rem">
+        <div class="card-body">
+          <h1 class="card-title user-card">Simon Vilmin</h1>
+          <h2 class="card-subtitle mb-2 text-muted user-card">Associate professor <br>(maître de conférences)</h2>
+          
+          <p class="card-text"> <a class="link" href="mailto:simon.vilmin@lis-lab.fr"> simon.vilmin@lis-lab.fr </a>
+
+          </p>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><a class="navlink" href="index.html">Home</a></li>
+            <li class="list-group-item"><a class="navlink" href="teaching.html">Teaching</a></li>
+            <li class="list-group-item"><a class="navlink" href="research.html">Research</a></li>
+            <li class="list-group-item"><a class="navlink" href="publications.html">Publications</a></li>
+            <li class="list-group-item"><a class="navlink" href="talks.html">Talks</a>
+          </ul>
+        </div>
+        <div class="card-footer text-muted">
+          Last modified: March 2025.
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-sm-6">
+    <h1 class="page-title">Research</h1>
+
+    <p class="par">
+        My PhD has been supervised by Prof. <a class="link" href="https://www.isima.fr/~nourine/">Lhouari Nourine</a>.
+    It has been conducted at the <a class="link" href="https://limos.isima.fr">LIMOS</a> (UCA, Clermont-Ferrand, France).
+    The manuscript can be found <a class="link" href="files/manuscript.pdf">here</a> and a handout of the slides <a class="link" href="files/soutenance-handout.pdf">here</a>.
+        </p>    
+
+    <p class="par">
+        I mostly study (finite) closure systems and their representations. 
+        A closure system over a finite groundset $S$ is a collection $\mathcal{C}$ of subsets of $S$ containing $S$ and closed under taking set-intersections.
+        Once ordered by inclusion, the members of $\mathcal{C}$---usually called closed sets---form a (closure) lattice.
+        Closure systems appear in a broad variety of fields such as, for instance, logic, algebra, database theory, Knowledge Space theory, data mining, Formal Concept Analysis, combinatorial optimization, abstract convexity theory, graph and hypergraph theory or argumentation.
+    </p>
+
+    <p class="par"> 
+        Closure systems usually appear in disguise by means of implicit representations.
+        Among them two are commons:
+        <ul>
+            <li> <em>Implicational Bases (IBs)</em> being sets of statements $A \to B$, called implications, where $A, B$ are subsets of $S$. Implications are also known as (pure) Horn clauses, functional dependencies, directed hypergraphs, or simply rules. They also generalizes circuits of matroids.
+            
+            </li>
+            <li> <em>(Meet-)Irreducible closed sets</em> being those closed sets that cannot be recovered using intersections of other closed sets. These are also known as characteristic models of a Horn function and they are at the core of Armstrong relations for functional dependencies. In convexity theory, they are usually known as copoints. They genereralize hyperplanes of matroids.</li>
+        </ul>
+        Within this context, I investigate both structural and algorithmic aspects of closure systems. A prototypical problem I have been interested in is the following: What is the complexity of translating between an implicational base and irreducible closed sets? This problem falls into the scope of algorithmic enumeration and output-sensitive complexity. Despite decades of research, its complexity remains unsettled. Still, it is known to be harder than Hypergraph Dualization, one of the most important open problem of enumeration. 
+
+    </p>
+
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item"> 
+            <em class="item-name">Research links: </em> 
+            <a class="link" href="https://scholar.google.com/citations?hl=en&user=9gDx46AAAAAJ">Google Scholar</a>, 
+            <a class="link", href="https://dblp.org/pid/245/7535.html">DBLP</a>, 
+            <a class="link", href="https://orcid.org/0000-0001-6240-4981">Orcid</a>
+        </li>
+
+        <li class="list-group-item">
+            <em class="item-name">Ph.D. students: </em> Anthony Meunier
+        </li>
+
+        <li class="list-group-item">
+            <em class="item-name"> Events I attended: </em> MFCS 2024, ICCS 2023, WEPA 2022, BDA 2022, BDA 2021, ICFCA 2021, ICTCS 2020, WEPA 2020, FCA4AI 2020, WEPA 2019, FCA4KD 2018
+        </li>
+
+        <li class="list-group-item">
+            <em class="item-name"> I Reviewed for: </em> DAM, DMTCS, Algebra Universalis, DMKD, AOCO, WG, ICFCA, ICDM
+        </li>
+    </ul>
+
+
+    
+    
+     
+    
+    </div>
+    
+  </div>
+</div>
+
+<!-- MathJax ----------------------------------------------------------------->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        jax: ["input/TeX", "output/CommonHTML"],
+        tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+    });
+    </script>
+    <script type="text/javascript" async
+                            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML">
+    </script>
+
+</body>

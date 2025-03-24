@@ -1,7 +1,7 @@
 /* Additionnal stylesheet, to override various bootstrap */
 /* style properties, without modifications on bootstrap.css */
 
-/* Bootstrap v3.3.7 */
+/* Bootstrap v5 */
 /* see bootstrap.css for more details (license, copyright) */
 
 /* reminder about CSS symbols : */
@@ -27,35 +27,165 @@
   margin-bottom: 5mm;
 }
 
-.navbar{
-	margin: 1% 0% 2% 0%;
+/* ================================================================== 
+ * page titles and subtitles
+ * =============================================================== */
+
+h1.page-title{
+	font-weight: bold;
+	color: rgb(87, 101, 116)
 }
 
-.navbar-brand#menu-name {
-  color: rgb(44, 62, 80);
-  font-size: 20pt;
+h2.page-subtitle{
+	font-weight: bold;
+	font-size: 20pt;
+	color: rgb(87, 101, 116);
 }
 
-.nav-link#menu-item:hover {
-  color: rgb(41, 128, 185);
+/* ================================================================== 
+ * Talks
+ * =============================================================== */
+
+ul.talk-year-list{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
-.page-subtitle {
-  color : #60a3bc;
+em.talk-date{
+	font-style:oblique
 }
 
-.list-title {
-  color: #60a3bc;
+em.talk-year-item{
+	font-style: normal;
+	font-weight: bold;
+	font-size: x-large;
+	color: rgb(87, 101, 116)
 }
 
+em.talk-title{
+	font-style: italic;
+	color: rgb(131, 149, 167)
+}
+
+a.talk-slides{
+	font-style: normal;
+	text-decoration: none;
+	color: rgb(255, 159, 67);
+}
+
+/* ================================================================== 
+ * Teaching 
+ * =============================================================== */
+
+ul#departments{
+	list-style-type: disc;
+	margin-top: 0;
+}
+
+em.course-name{
+	font-style: italic;
+	color: rgb(131, 149, 167)
+}
+
+a.course-slides{
+	font-style: normal;
+	text-decoration: none;
+	color: rgb(255, 107, 107);
+}
+
+em.course-year{
+	font-style:oblique;
+	color: rgb(255, 159, 67);
+}
+
+em.course-date{
+	font-style:oblique;
+	color: rgb(131, 149, 167)
+}
+
+ul.course-list{
+	list-style-type: none;
+	padding: 0%;
+	margin: 0%;
+}
+
+/* ================================================================== 
+ * publications
+ * =============================================================== */
+ 
+em.sq-j{
+	color:rgb(238, 82, 83);
+	margin-right: 5;
+}
+
+em.sq-p{
+	color:rgb(87, 101, 116);
+	margin-right: 5;
+}
+
+em.sq-c{
+	color: rgb(46, 134, 222);
+	margin-right: 5;
+}
+
+em.sq-w{
+	color: rgb(29, 209, 161);
+	margin-right: 5;
+}
+
+em.sq-t{
+	color: rgb(254, 202, 87);
+	margin-right: 5;
+}
+
+ul.publi-item{
+	list-style-type: none;
+}
+
+em.contrib-title{
+	font-weight: bold;
+	color: rgb(131, 149, 167)
+}
+
+em.contrib-authors{
+	font-style: normal;
+	color: rgb(131, 149, 167);
+}
+
+em.journal-title{
+	font-style: oblique
+}
+
+/* ================================================================== 
+ * Research
+ * =============================================================== */
+
+em.item-name{
+	font-weight: bold;
+	color: rgb(131, 149, 167);
+}
+
+
+
+ /* ****************** */
 p.par{
   margin-bottom: 0.5cm;
-  color: rgb(44, 62, 80);
   text-align: justify;
 }
 
+h1.user-card{
+	font-size:1.5em
+}
+
+h2.user-card{
+	font-size:1.2em
+}
+
+
+
 em#keywords{
-  color: #60a3bc;
+  color: #8395a7;
   font-weight: bold;
   font-style: normal;
 }
@@ -67,7 +197,7 @@ em#contact{
 }
 
 em#links{
-	color: #60a3bc;
+	color: #8395a7;
 	font-weight: bold;
 	font-style: normal;
   }
@@ -116,14 +246,25 @@ div.quote{
   margin-right: auto;
 }
 
+a.navlink{
+	text-decoration:none;
+	font-weight: bold;
+	color: #8395a7;
+}
+
+a.navlink:hover{
+	font-weight: bold;
+	color: #ff9f43;
+}
+
 a.link{
 	text-decoration: none;
-	color: #7d5fff;
+	color: #0abde3;
 }
 
 a.link:hover{
 	text-decoration: underline;
-	color: #7d5fff;
+	color: #0abde3;
 }
 
 #col-title{
@@ -134,10 +275,7 @@ a.link:hover{
 	border-radius: 5px;
 }
 
-h2.page-subtitle{
-	font-size: 20pt;
-	color: rgb(44, 62, 80);
-}
+
 
 /* managing upper-items color */
 /* .nav-pills > li > a {
